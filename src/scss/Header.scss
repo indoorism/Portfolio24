@@ -3,8 +3,69 @@
 
 .header {
   &.root {
+    position: relative;
     display: flex;
     flex-direction: column;
     background-color: rgb(255, 255, 255);
+  }
+  .image {
+    position: absolute;
+    top: 142px;
+    right: 1270px;
+    bottom: 16px;
+    left: 10px;
+    width: 640px;
+    height: 156px;
+    object-fit: contain;
+  }
+  .highlight {
+    position: absolute;
+    top: 9.5px;
+    left: 10px;
+    display: flex;
+    align-items: center;
+    width: 935px;
+    height: 122px;
+    font: 400 15px/1.15 "Courier Prime", Helvetica, Arial, serif;
+    color: rgb(0, 0, 0);
+    letter-spacing: -0.1px;
+  }
+  .flex_col {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 25px 0px;
+    margin: 71px 6.04% 48px auto;
+    width: 805px;
+  }
+  .highlight1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 31.68% 0px auto;
+    width: 218px;
+    font: 700 19.05000114440918px/1.1 "Inter", Helvetica, Arial, serif;
+    color: rgb(0, 0, 0);
+    text-align: center;
+  }
+  .flex_row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0px 10px;
+  }
+  .highlight2 {
+    display: flex;
+    align-items: center;
+    width: 360px;
+    font: 700 19.200000762939453px/1.1 "Inter", Helvetica, Arial, serif;
+    color: rgb(0, 0, 255);
+  }
+  .highlight21 {
+    display: flex;
+    align-items: center;
+    width: 325px;
+    font: 700 19.200000762939453px/1.1 "Inter", Helvetica, Arial, serif;
+    color: rgb(0, 0, 255);
   }
 }
